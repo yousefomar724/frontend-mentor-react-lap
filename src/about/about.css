@@ -1,0 +1,50 @@
+.about{
+    background-color: var(--darkBlueMainBg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 4rem 6rem;
+    color: var(--white);
+}
+
+.about__img{
+    max-width: 450px;
+    flex: 1;
+}
+
+.about__content{
+    flex: 1;
+    max-width: 50%;
+}
+
+.about__btn{
+    color: var(--white);
+    transition: .1s;
+    text-decoration: none;
+}
+.about__btn:hover{
+    color: var(--cyan);
+    text-decoration: underline;
+}
+
+.about__btn img{
+    display: inline;
+}
+
+/* Mobile */
+@media (max-width: 950px){
+    .about{
+        flex-direction: column;
+        padding: 4rem 2rem;
+        gap: 3rem;
+    }
+
+    .about__img{
+        width: 100%;
+    }
+    .about__content{
+        max-width: 100%;
+    }
+}

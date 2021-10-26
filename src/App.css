@@ -1,0 +1,49 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+
+/* Variables */
+:root{
+    /* Colors */
+    --darkBlueIntro:  hsl(217, 28%, 15%); /* Intro and email sign up background */
+    --darkBlueMainBg: hsl(218, 28%, 13%);
+    --darkBlueftrBg:  hsl(216, 53%, 9%);
+    --darkBluetestBg: hsl(219, 30%, 18%);
+
+    --cyan:     hsl(176, 68%, 64%); /* inside call-to-action gradient */
+    --blue:     hsl(198, 60%, 50%); /* inside call-to-action gradient */ 
+    --lightRed: hsl(0, 100%, 63%);
+    
+    --white:    hsl(0, 0%, 100%);
+    
+    /* Font */
+    ---body-fs: 14px;
+
+    --thin-fw: 400;
+    --bulk-fw: 700;
+
+    --body-ff:    'Open Sans', sans-serif;
+    --heading-ff: 'Raleway', sans-serif;
+}
+
+
+/* General */
+* { box-sizing: border-box; }
+
+body{
+    font-family: var(--body-ff);
+    font-size:var(---body-fs);
+    margin: 0;
+    overflow-x: hidden;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}

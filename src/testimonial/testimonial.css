@@ -1,0 +1,54 @@
+.testimonial{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    background-color: var(--darkBlueMainBg);
+    padding: 4rem 3rem 12rem;
+}
+
+.card{
+    max-width: 370px;
+    background-color: var(--darkBluetestBg) !important;
+    padding: 1.5rem;
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.card__user{
+    display: flex;
+    gap: 1rem;
+}
+
+.card__user-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.userName{
+    font-size: .9rem;
+    font-weight: var(--bulk-fw);
+}
+
+.userTitle{
+    font-size: .8rem;
+}
+
+.card__user-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.bg-quote{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}

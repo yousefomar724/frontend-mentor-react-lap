@@ -1,0 +1,32 @@
+/* DESKTOP */
+.services{
+    background: var(--darkBlueMainBg);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    text-align: center;
+    padding: 6rem 2rem 4rem;
+    color: var(--white);
+}
+
+.service{
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+
+.service__img{
+    padding-bottom: 1rem;
+}
+
+.service__title{
+    font-size: 1.4rem;
+    font-weight: var(--bulk-fw);
+    padding: 1rem 0 0 0;
+}
+
+.service__text { font-size: .8rem; }

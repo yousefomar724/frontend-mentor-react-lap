@@ -1,0 +1,78 @@
+/* DESKTOP */
+
+/* Nav */
+.nav{
+    background-color: var(--darkBlueIntro);
+    padding: 2rem !important;
+}
+
+.logo { width: 80%; }
+
+.navbar-brand { margin-right: 0 !important; }
+
+.nav a { color: #aaa; }
+
+.nav a:hover { color: var(--white) !important; }
+
+/* very small devices */
+@media (max-width: 520px){
+    .container-fluid{
+        justify-content: center !important;
+        align-items: center !important;
+    }
+}
+
+/* Hero Bg */
+.bg{
+    background: url('../assets/images/bg-curvy-desktop.svg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: var(--darkBlueIntro);
+}
+
+/* Hero Section */
+.main{
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.main__img { width: 30%; }
+
+.main__heading,
+.main__text { max-width: 40%; }
+
+.main__btn{
+    padding: .5rem 2.5rem;
+    background-color: var(--cyan);
+    border: none;
+    border-radius: 20px;
+    color: var(--white);
+}
+
+/* MOBILE */
+@media (max-width: 950px){
+    .nav{
+        padding: 1rem !important;
+    }
+    
+    .bg{
+        background: url('../assets/images/bg-curvy-mobile.svg') no-repeat contain;
+    }
+
+    .main__img{
+        width: 70%;
+        padding-bottom: 1rem;
+    }
+
+    .main__heading,
+    .main__text{
+        max-width: 80%;
+    }
+}
